@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074EA2311BA59D74005E1B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074EA2301BA59D74005E1B4B /* AppDelegate.swift */; };
+		074EA2331BA59D74005E1B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074EA2321BA59D74005E1B4B /* ViewController.swift */; };
+		074EA2361BA59D74005E1B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2341BA59D74005E1B4B /* Main.storyboard */; };
+		074EA2381BA59D74005E1B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2371BA59D74005E1B4B /* Assets.xcassets */; };
+		074EA23B1BA59D74005E1B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2391BA59D74005E1B4B /* LaunchScreen.storyboard */; };
+		074EA2461BA59D75005E1B4B /* Which_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074EA2451BA59D75005E1B4B /* Which_OneTests.swift */; };
+		074EA2511BA59D75005E1B4B /* Which_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074EA2501BA59D75005E1B4B /* Which_OneUITests.swift */; };
+		074EA29D1BA5C2B9005E1B4B /* boys-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA29C1BA5C2B9005E1B4B /* boys-11.jpg */; };
+		074EA2A31BA5C433005E1B4B /* boys-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2A21BA5C433005E1B4B /* boys-2.jpg */; };
+		074EA2A71BA5C47F005E1B4B /* boys-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2A61BA5C47F005E1B4B /* boys-3.jpg */; };
+		074EA2AB1BA5D0BC005E1B4B /* asa-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2A81BA5D0BC005E1B4B /* asa-1.jpg */; };
+		074EA2AC1BA5D0BC005E1B4B /* boys-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2A91BA5D0BC005E1B4B /* boys-1.jpg */; };
+		074EA2AD1BA5D0BC005E1B4B /* silas-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2AA1BA5D0BC005E1B4B /* silas-1.jpg */; };
+		074EA2B51BA5D22D005E1B4B /* boys-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2AE1BA5D22D005E1B4B /* boys-4.jpg */; };
+		074EA2B61BA5D22D005E1B4B /* boys-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2AF1BA5D22D005E1B4B /* boys-5.jpg */; };
+		074EA2B71BA5D22D005E1B4B /* boys-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2B01BA5D22D005E1B4B /* boys-6.jpg */; };
+		074EA2B81BA5D22D005E1B4B /* boys-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2B11BA5D22D005E1B4B /* boys-7.jpg */; };
+		074EA2B91BA5D22D005E1B4B /* boys-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2B21BA5D22D005E1B4B /* boys-8.jpg */; };
+		074EA2BA1BA5D22D005E1B4B /* boys-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2B31BA5D22D005E1B4B /* boys-9.jpg */; };
+		074EA2BB1BA5D22D005E1B4B /* boys-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2B41BA5D22D005E1B4B /* boys-10.jpg */; };
+		074EA2BF1BA61FBB005E1B4B /* AsaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074EA2BE1BA61FBB005E1B4B /* AsaViewController.swift */; };
+		074EA2C11BA61FD5005E1B4B /* SilasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074EA2C01BA61FD5005E1B4B /* SilasViewController.swift */; };
+		074EA2CB1BA623B0005E1B4B /* asa-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2C21BA623B0005E1B4B /* asa-2.jpg */; };
+		074EA2CC1BA623B0005E1B4B /* asa-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2C31BA623B0005E1B4B /* asa-3.jpg */; };
+		074EA2CD1BA623B0005E1B4B /* asa-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2C41BA623B0005E1B4B /* asa-4.jpg */; };
+		074EA2CE1BA623B0005E1B4B /* asa-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2C51BA623B0005E1B4B /* asa-5.jpg */; };
+		074EA2CF1BA623B0005E1B4B /* asa-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2C61BA623B0005E1B4B /* asa-6.jpg */; };
+		074EA2D01BA623B0005E1B4B /* asa-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2C71BA623B0005E1B4B /* asa-7.jpg */; };
+		074EA2D11BA623B0005E1B4B /* asa-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2C81BA623B0005E1B4B /* asa-8.jpg */; };
+		074EA2D21BA623B0005E1B4B /* asa-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2C91BA623B0005E1B4B /* asa-9.jpg */; };
+		074EA2D31BA623B0005E1B4B /* asa-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2CA1BA623B0005E1B4B /* asa-10.jpg */; };
+		074EA2DD1BA623C6005E1B4B /* silas-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2D41BA623C6005E1B4B /* silas-2.jpg */; };
+		074EA2DE1BA623C6005E1B4B /* silas-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2D51BA623C6005E1B4B /* silas-3.jpg */; };
+		074EA2DF1BA623C6005E1B4B /* silas-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2D61BA623C6005E1B4B /* silas-4.jpg */; };
+		074EA2E01BA623C6005E1B4B /* silas-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2D71BA623C6005E1B4B /* silas-5.jpg */; };
+		074EA2E11BA623C6005E1B4B /* silas-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2D81BA623C6005E1B4B /* silas-6.jpg */; };
+		074EA2E21BA623C6005E1B4B /* silas-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2D91BA623C6005E1B4B /* silas-7.jpg */; };
+		074EA2E31BA623C6005E1B4B /* silas-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2DA1BA623C6005E1B4B /* silas-8.jpg */; };
+		074EA2E41BA623C6005E1B4B /* silas-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2DB1BA623C6005E1B4B /* silas-9.jpg */; };
+		074EA2E51BA623C6005E1B4B /* silas-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 074EA2DC1BA623C6005E1B4B /* silas-10.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		074EA2421BA59D75005E1B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074EA2251BA59D74005E1B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074EA22C1BA59D74005E1B4B;
+			remoteInfo = "Asa or Silas";
+		};
+		074EA24D1BA59D75005E1B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074EA2251BA59D74005E1B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074EA22C1BA59D74005E1B4B;
+			remoteInfo = "Asa or Silas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074EA22D1BA59D74005E1B4B /* Asa or Silas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asa or Silas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		074EA2301BA59D74005E1B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		074EA2321BA59D74005E1B4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		074EA2351BA59D74005E1B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		074EA2371BA59D74005E1B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		074EA23A1BA59D74005E1B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		074EA23C1BA59D74005E1B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074EA2411BA59D75005E1B4B /* Asa or Silas.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asa or Silas.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		074EA2451BA59D75005E1B4B /* Which_OneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Which_OneTests.swift; sourceTree = "<group>"; };
+		074EA2471BA59D75005E1B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074EA24C1BA59D75005E1B4B /* Asa or Silas.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asa or Silas.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		074EA2501BA59D75005E1B4B /* Which_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Which_OneUITests.swift; sourceTree = "<group>"; };
+		074EA2521BA59D75005E1B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074EA29C1BA5C2B9005E1B4B /* boys-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-11.jpg"; sourceTree = "<group>"; };
+		074EA2A21BA5C433005E1B4B /* boys-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-2.jpg"; sourceTree = "<group>"; };
+		074EA2A61BA5C47F005E1B4B /* boys-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-3.jpg"; sourceTree = "<group>"; };
+		074EA2A81BA5D0BC005E1B4B /* asa-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asa-1.jpg"; sourceTree = "<group>"; };
+		074EA2A91BA5D0BC005E1B4B /* boys-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-1.jpg"; sourceTree = "<group>"; };
+		074EA2AA1BA5D0BC005E1B4B /* silas-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silas-1.jpg"; sourceTree = "<group>"; };
+		074EA2AE1BA5D22D005E1B4B /* boys-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-4.jpg"; sourceTree = "<group>"; };
+		074EA2AF1BA5D22D005E1B4B /* boys-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-5.jpg"; sourceTree = "<group>"; };
+		074EA2B01BA5D22D005E1B4B /* boys-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-6.jpg"; sourceTree = "<group>"; };
+		074EA2B11BA5D22D005E1B4B /* boys-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-7.jpg"; sourceTree = "<group>"; };
+		074EA2B21BA5D22D005E1B4B /* boys-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-8.jpg"; sourceTree = "<group>"; };
+		074EA2B31BA5D22D005E1B4B /* boys-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-9.jpg"; sourceTree = "<group>"; };
+		074EA2B41BA5D22D005E1B4B /* boys-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boys-10.jpg"; sourceTree = "<group>"; };
+		074EA2BE1BA61FBB005E1B4B /* AsaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsaViewController.swift; sourceTree = "<group>"; };
+		074EA2C01BA61FD5005E1B4B /* SilasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilasViewController.swift; sourceTree = "<group>"; };
+		074EA2C21BA623B0005E1B4B /* asa-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asa-2.jpg"; sourceTree = "<group>"; };
+		074EA2C31BA623B0005E1B4B /* asa-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asa-3.jpg"; sourceTree = "<group>"; };
+		074EA2C41BA623B0005E1B4B /* asa-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asa-4.jpg"; sourceTree = "<group>"; };
+		074EA2C51BA623B0005E1B4B /* asa-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asa-5.jpg"; sourceTree = "<group>"; };
+		074EA2C61BA623B0005E1B4B /* asa-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asa-6.jpg"; sourceTree = "<group>"; };
+		074EA2C71BA623B0005E1B4B /* asa-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asa-7.jpg"; sourceTree = "<group>"; };
+		074EA2C81BA623B0005E1B4B /* asa-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asa-8.jpg"; sourceTree = "<group>"; };
+		074EA2C91BA623B0005E1B4B /* asa-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asa-9.jpg"; sourceTree = "<group>"; };
+		074EA2CA1BA623B0005E1B4B /* asa-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asa-10.jpg"; sourceTree = "<group>"; };
+		074EA2D41BA623C6005E1B4B /* silas-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silas-2.jpg"; sourceTree = "<group>"; };
+		074EA2D51BA623C6005E1B4B /* silas-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silas-3.jpg"; sourceTree = "<group>"; };
+		074EA2D61BA623C6005E1B4B /* silas-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silas-4.jpg"; sourceTree = "<group>"; };
+		074EA2D71BA623C6005E1B4B /* silas-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silas-5.jpg"; sourceTree = "<group>"; };
+		074EA2D81BA623C6005E1B4B /* silas-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silas-6.jpg"; sourceTree = "<group>"; };
+		074EA2D91BA623C6005E1B4B /* silas-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silas-7.jpg"; sourceTree = "<group>"; };
+		074EA2DA1BA623C6005E1B4B /* silas-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silas-8.jpg"; sourceTree = "<group>"; };
+		074EA2DB1BA623C6005E1B4B /* silas-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silas-9.jpg"; sourceTree = "<group>"; };
+		074EA2DC1BA623C6005E1B4B /* silas-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silas-10.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074EA22A1BA59D74005E1B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074EA23E1BA59D75005E1B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074EA2491BA59D75005E1B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074EA2241BA59D74005E1B4B = {
+			isa = PBXGroup;
+			children = (
+				074EA22F1BA59D74005E1B4B /* Asa or Silas */,
+				074EA2441BA59D75005E1B4B /* Asa or SilasTests */,
+				074EA24F1BA59D75005E1B4B /* Asa or SilasUITests */,
+				074EA22E1BA59D74005E1B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074EA22E1BA59D74005E1B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074EA22D1BA59D74005E1B4B /* Asa or Silas.app */,
+				074EA2411BA59D75005E1B4B /* Asa or Silas.xctest */,
+				074EA24C1BA59D75005E1B4B /* Asa or Silas.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074EA22F1BA59D74005E1B4B /* Asa or Silas */ = {
+			isa = PBXGroup;
+			children = (
+				074EA2301BA59D74005E1B4B /* AppDelegate.swift */,
+				074EA2321BA59D74005E1B4B /* ViewController.swift */,
+				074EA2BE1BA61FBB005E1B4B /* AsaViewController.swift */,
+				074EA2C01BA61FD5005E1B4B /* SilasViewController.swift */,
+				0776021E1C51387200D8CC95 /* images */,
+				074EA2341BA59D74005E1B4B /* Main.storyboard */,
+				074EA2371BA59D74005E1B4B /* Assets.xcassets */,
+				074EA2391BA59D74005E1B4B /* LaunchScreen.storyboard */,
+				074EA23C1BA59D74005E1B4B /* Info.plist */,
+			);
+			path = "Asa or Silas";
+			sourceTree = "<group>";
+		};
+		074EA2441BA59D75005E1B4B /* Asa or SilasTests */ = {
+			isa = PBXGroup;
+			children = (
+				074EA2451BA59D75005E1B4B /* Which_OneTests.swift */,
+				074EA2471BA59D75005E1B4B /* Info.plist */,
+			);
+			path = "Asa or SilasTests";
+			sourceTree = "<group>";
+		};
+		074EA24F1BA59D75005E1B4B /* Asa or SilasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				074EA2501BA59D75005E1B4B /* Which_OneUITests.swift */,
+				074EA2521BA59D75005E1B4B /* Info.plist */,
+			);
+			path = "Asa or SilasUITests";
+			sourceTree = "<group>";
+		};
+		0776021E1C51387200D8CC95 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				074EA2A81BA5D0BC005E1B4B /* asa-1.jpg */,
+				074EA2C21BA623B0005E1B4B /* asa-2.jpg */,
+				074EA2C31BA623B0005E1B4B /* asa-3.jpg */,
+				074EA2C41BA623B0005E1B4B /* asa-4.jpg */,
+				074EA2C51BA623B0005E1B4B /* asa-5.jpg */,
+				074EA2C61BA623B0005E1B4B /* asa-6.jpg */,
+				074EA2C71BA623B0005E1B4B /* asa-7.jpg */,
+				074EA2C81BA623B0005E1B4B /* asa-8.jpg */,
+				074EA2C91BA623B0005E1B4B /* asa-9.jpg */,
+				074EA2CA1BA623B0005E1B4B /* asa-10.jpg */,
+				074EA2AA1BA5D0BC005E1B4B /* silas-1.jpg */,
+				074EA2D41BA623C6005E1B4B /* silas-2.jpg */,
+				074EA2D51BA623C6005E1B4B /* silas-3.jpg */,
+				074EA2D61BA623C6005E1B4B /* silas-4.jpg */,
+				074EA2D71BA623C6005E1B4B /* silas-5.jpg */,
+				074EA2D81BA623C6005E1B4B /* silas-6.jpg */,
+				074EA2D91BA623C6005E1B4B /* silas-7.jpg */,
+				074EA2DA1BA623C6005E1B4B /* silas-8.jpg */,
+				074EA2DB1BA623C6005E1B4B /* silas-9.jpg */,
+				074EA2DC1BA623C6005E1B4B /* silas-10.jpg */,
+				074EA2A91BA5D0BC005E1B4B /* boys-1.jpg */,
+				074EA2A21BA5C433005E1B4B /* boys-2.jpg */,
+				074EA2A61BA5C47F005E1B4B /* boys-3.jpg */,
+				074EA2AE1BA5D22D005E1B4B /* boys-4.jpg */,
+				074EA2AF1BA5D22D005E1B4B /* boys-5.jpg */,
+				074EA2B01BA5D22D005E1B4B /* boys-6.jpg */,
+				074EA2B11BA5D22D005E1B4B /* boys-7.jpg */,
+				074EA2B21BA5D22D005E1B4B /* boys-8.jpg */,
+				074EA2B31BA5D22D005E1B4B /* boys-9.jpg */,
+				074EA2B41BA5D22D005E1B4B /* boys-10.jpg */,
+				074EA29C1BA5C2B9005E1B4B /* boys-11.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074EA22C1BA59D74005E1B4B /* Asa or Silas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074EA2551BA59D75005E1B4B /* Build configuration list for PBXNativeTarget "Asa or Silas" */;
+			buildPhases = (
+				074EA2291BA59D74005E1B4B /* Sources */,
+				074EA22A1BA59D74005E1B4B /* Frameworks */,
+				074EA22B1BA59D74005E1B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Asa or Silas";
+			productName = "Asa or Silas";
+			productReference = 074EA22D1BA59D74005E1B4B /* Asa or Silas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		074EA2401BA59D75005E1B4B /* Asa or SilasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074EA2581BA59D75005E1B4B /* Build configuration list for PBXNativeTarget "Asa or SilasTests" */;
+			buildPhases = (
+				074EA23D1BA59D75005E1B4B /* Sources */,
+				074EA23E1BA59D75005E1B4B /* Frameworks */,
+				074EA23F1BA59D75005E1B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074EA2431BA59D75005E1B4B /* PBXTargetDependency */,
+			);
+			name = "Asa or SilasTests";
+			productName = "Asa or SilasTests";
+			productReference = 074EA2411BA59D75005E1B4B /* Asa or Silas.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		074EA24B1BA59D75005E1B4B /* Asa or SilasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074EA25B1BA59D75005E1B4B /* Build configuration list for PBXNativeTarget "Asa or SilasUITests" */;
+			buildPhases = (
+				074EA2481BA59D75005E1B4B /* Sources */,
+				074EA2491BA59D75005E1B4B /* Frameworks */,
+				074EA24A1BA59D75005E1B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074EA24E1BA59D75005E1B4B /* PBXTargetDependency */,
+			);
+			name = "Asa or SilasUITests";
+			productName = "Asa or SilasUITests";
+			productReference = 074EA24C1BA59D75005E1B4B /* Asa or Silas.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074EA2251BA59D74005E1B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = silasa;
+				TargetAttributes = {
+					074EA22C1BA59D74005E1B4B = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 24U6GLYEEQ;
+					};
+					074EA2401BA59D75005E1B4B = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 24U6GLYEEQ;
+						TestTargetID = 074EA22C1BA59D74005E1B4B;
+					};
+					074EA24B1BA59D75005E1B4B = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 24U6GLYEEQ;
+						TestTargetID = 074EA22C1BA59D74005E1B4B;
+					};
+				};
+			};
+			buildConfigurationList = 074EA2281BA59D74005E1B4B /* Build configuration list for PBXProject "Asa or Silas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 074EA2241BA59D74005E1B4B;
+			productRefGroup = 074EA22E1BA59D74005E1B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074EA22C1BA59D74005E1B4B /* Asa or Silas */,
+				074EA2401BA59D75005E1B4B /* Asa or SilasTests */,
+				074EA24B1BA59D75005E1B4B /* Asa or SilasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074EA22B1BA59D74005E1B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074EA2CB1BA623B0005E1B4B /* asa-2.jpg in Resources */,
+				074EA2BA1BA5D22D005E1B4B /* boys-9.jpg in Resources */,
+				074EA2A71BA5C47F005E1B4B /* boys-3.jpg in Resources */,
+				074EA2B71BA5D22D005E1B4B /* boys-6.jpg in Resources */,
+				074EA2CF1BA623B0005E1B4B /* asa-6.jpg in Resources */,
+				074EA2B61BA5D22D005E1B4B /* boys-5.jpg in Resources */,
+				074EA2E41BA623C6005E1B4B /* silas-9.jpg in Resources */,
+				074EA2BB1BA5D22D005E1B4B /* boys-10.jpg in Resources */,
+				074EA2DF1BA623C6005E1B4B /* silas-4.jpg in Resources */,
+				074EA23B1BA59D74005E1B4B /* LaunchScreen.storyboard in Resources */,
+				074EA2B51BA5D22D005E1B4B /* boys-4.jpg in Resources */,
+				074EA2E51BA623C6005E1B4B /* silas-10.jpg in Resources */,
+				074EA2AB1BA5D0BC005E1B4B /* asa-1.jpg in Resources */,
+				074EA29D1BA5C2B9005E1B4B /* boys-11.jpg in Resources */,
+				074EA2381BA59D74005E1B4B /* Assets.xcassets in Resources */,
+				074EA2B81BA5D22D005E1B4B /* boys-7.jpg in Resources */,
+				074EA2DD1BA623C6005E1B4B /* silas-2.jpg in Resources */,
+				074EA2E11BA623C6005E1B4B /* silas-6.jpg in Resources */,
+				074EA2AC1BA5D0BC005E1B4B /* boys-1.jpg in Resources */,
+				074EA2D11BA623B0005E1B4B /* asa-8.jpg in Resources */,
+				074EA2CC1BA623B0005E1B4B /* asa-3.jpg in Resources */,
+				074EA2D01BA623B0005E1B4B /* asa-7.jpg in Resources */,
+				074EA2E01BA623C6005E1B4B /* silas-5.jpg in Resources */,
+				074EA2B91BA5D22D005E1B4B /* boys-8.jpg in Resources */,
+				074EA2CE1BA623B0005E1B4B /* asa-5.jpg in Resources */,
+				074EA2E21BA623C6005E1B4B /* silas-7.jpg in Resources */,
+				074EA2D21BA623B0005E1B4B /* asa-9.jpg in Resources */,
+				074EA2DE1BA623C6005E1B4B /* silas-3.jpg in Resources */,
+				074EA2D31BA623B0005E1B4B /* asa-10.jpg in Resources */,
+				074EA2E31BA623C6005E1B4B /* silas-8.jpg in Resources */,
+				074EA2AD1BA5D0BC005E1B4B /* silas-1.jpg in Resources */,
+				074EA2CD1BA623B0005E1B4B /* asa-4.jpg in Resources */,
+				074EA2A31BA5C433005E1B4B /* boys-2.jpg in Resources */,
+				074EA2361BA59D74005E1B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074EA23F1BA59D75005E1B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074EA24A1BA59D75005E1B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074EA2291BA59D74005E1B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074EA2331BA59D74005E1B4B /* ViewController.swift in Sources */,
+				074EA2311BA59D74005E1B4B /* AppDelegate.swift in Sources */,
+				074EA2BF1BA61FBB005E1B4B /* AsaViewController.swift in Sources */,
+				074EA2C11BA61FD5005E1B4B /* SilasViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074EA23D1BA59D75005E1B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074EA2461BA59D75005E1B4B /* Which_OneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074EA2481BA59D75005E1B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074EA2511BA59D75005E1B4B /* Which_OneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		074EA2431BA59D75005E1B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074EA22C1BA59D74005E1B4B /* Asa or Silas */;
+			targetProxy = 074EA2421BA59D75005E1B4B /* PBXContainerItemProxy */;
+		};
+		074EA24E1BA59D75005E1B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074EA22C1BA59D74005E1B4B /* Asa or Silas */;
+			targetProxy = 074EA24D1BA59D75005E1B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		074EA2341BA59D74005E1B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074EA2351BA59D74005E1B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		074EA2391BA59D74005E1B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074EA23A1BA59D74005E1B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		074EA2531BA59D75005E1B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		074EA2541BA59D75005E1B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		074EA2561BA59D75005E1B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Asa or Silas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silasa.Asa-or-Silas";
+				PRODUCT_NAME = "Asa or Silas";
+			};
+			name = Debug;
+		};
+		074EA2571BA59D75005E1B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Asa or Silas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silasa.Asa-or-Silas";
+				PRODUCT_NAME = "Asa or Silas";
+			};
+			name = Release;
+		};
+		074EA2591BA59D75005E1B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Asa or SilasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silasa.Which-OneTests";
+				PRODUCT_NAME = "Asa or Silas";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asa or Silas.app/Asa or Silas";
+			};
+			name = Debug;
+		};
+		074EA25A1BA59D75005E1B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Asa or SilasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silasa.Which-OneTests";
+				PRODUCT_NAME = "Asa or Silas";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asa or Silas.app/Asa or Silas";
+			};
+			name = Release;
+		};
+		074EA25C1BA59D75005E1B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Asa or SilasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silasa.Which-OneUITests";
+				PRODUCT_NAME = "Asa or Silas";
+				TEST_TARGET_NAME = "Asa or Silas";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		074EA25D1BA59D75005E1B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Asa or SilasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silasa.Which-OneUITests";
+				PRODUCT_NAME = "Asa or Silas";
+				TEST_TARGET_NAME = "Asa or Silas";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074EA2281BA59D74005E1B4B /* Build configuration list for PBXProject "Asa or Silas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074EA2531BA59D75005E1B4B /* Debug */,
+				074EA2541BA59D75005E1B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074EA2551BA59D75005E1B4B /* Build configuration list for PBXNativeTarget "Asa or Silas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074EA2561BA59D75005E1B4B /* Debug */,
+				074EA2571BA59D75005E1B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074EA2581BA59D75005E1B4B /* Build configuration list for PBXNativeTarget "Asa or SilasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074EA2591BA59D75005E1B4B /* Debug */,
+				074EA25A1BA59D75005E1B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074EA25B1BA59D75005E1B4B /* Build configuration list for PBXNativeTarget "Asa or SilasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074EA25C1BA59D75005E1B4B /* Debug */,
+				074EA25D1BA59D75005E1B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 074EA2251BA59D74005E1B4B /* Project object */;
+}

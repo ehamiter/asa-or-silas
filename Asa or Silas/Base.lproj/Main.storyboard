@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Asa_or_Silas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boys-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oQD-pJ-5R5">
+                                <rect key="frame" x="40" y="124" width="240" height="320"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKG-bj-9RQ">
+                                <rect key="frame" x="111" y="484" width="99" height="64"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
+                                <state key="normal" title="Find Out!"/>
+                                <connections>
+                                    <action selector="randomButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PqL-h1-MB2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asa or Silas?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdo-DK-W0c">
+                                <rect key="frame" x="67" y="28" width="186" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="RAl-aD-JLM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="28"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81176470588235294" green="0.89411764705882357" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="oQD-pJ-5R5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6yp-Qp-cm4"/>
+                            <constraint firstItem="zdo-DK-W0c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="96s-JM-DOX"/>
+                            <constraint firstItem="oQD-pJ-5R5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="DCn-cn-hs1"/>
+                            <constraint firstItem="oQD-pJ-5R5" firstAttribute="top" secondItem="zdo-DK-W0c" secondAttribute="bottom" constant="45" id="FO5-2v-sEE"/>
+                            <constraint firstAttribute="bottom" secondItem="kKG-bj-9RQ" secondAttribute="bottom" constant="20" symbolic="YES" id="Xpy-Nd-QnM"/>
+                            <constraint firstItem="kKG-bj-9RQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="95" id="a6i-yE-4fd"/>
+                            <constraint firstItem="zdo-DK-W0c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="clT-4O-orB"/>
+                            <constraint firstItem="kKG-bj-9RQ" firstAttribute="top" secondItem="oQD-pJ-5R5" secondAttribute="bottom" constant="40" id="tkm-Ye-jrj"/>
+                            <constraint firstItem="oQD-pJ-5R5" firstAttribute="centerX" secondItem="kKG-bj-9RQ" secondAttribute="centerX" id="v0z-cF-U9I"/>
+                            <constraint firstItem="zdo-DK-W0c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="xKw-NZ-Sa0"/>
+                            <constraint firstItem="zdo-DK-W0c" firstAttribute="centerX" secondItem="oQD-pJ-5R5" secondAttribute="centerX" id="xak-YE-fp8"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="boysPic" destination="oQD-pJ-5R5" id="Jr2-I8-Nfv"/>
+                        <segue destination="rdI-4X-oB0" kind="show" identifier="asa" id="Efs-SR-KKQ"/>
+                        <segue destination="Vsc-9K-fZ4" kind="showDetail" identifier="silas" action="showViewController:sender:" id="wUo-0a-Gux"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="93" y="360"/>
+        </scene>
+        <!--asa-->
+        <scene sceneID="CqX-ck-uNq">
+            <objects>
+                <viewController title="asa" modalTransitionStyle="partialCurl" id="rdI-4X-oB0" customClass="AsaViewController" customModule="Asa_or_Silas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uHl-KF-2Xf"/>
+                        <viewControllerLayoutGuide type="bottom" id="e5J-bk-bcd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nca-HN-diO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asa-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PXc-A9-tW0">
+                                <rect key="frame" x="40" y="124" width="240" height="320"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asa!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saH-6V-iZu">
+                                <rect key="frame" x="67" y="20" width="186" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="77j-JE-Dhh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="28"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQt-h8-7eu">
+                                <rect key="frame" x="105" y="484" width="111" height="64"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
+                                <state key="normal" title="Try Again">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="" id="yQr-cp-Umt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cyan="0.080643503289473686" magenta="0.097784745065789477" yellow="0.0" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="fQt-h8-7eu" secondAttribute="bottom" constant="20" symbolic="YES" id="9gv-nb-DmM"/>
+                            <constraint firstItem="saH-6V-iZu" firstAttribute="leading" secondItem="nca-HN-diO" secondAttribute="leadingMargin" constant="51" id="LpN-dl-qbq"/>
+                            <constraint firstItem="PXc-A9-tW0" firstAttribute="centerX" secondItem="fQt-h8-7eu" secondAttribute="centerX" id="MYz-AH-eSU"/>
+                            <constraint firstItem="PXc-A9-tW0" firstAttribute="leading" secondItem="nca-HN-diO" secondAttribute="leadingMargin" constant="24" id="Vps-4J-4L9"/>
+                            <constraint firstItem="saH-6V-iZu" firstAttribute="centerX" secondItem="nca-HN-diO" secondAttribute="centerX" id="fhv-hg-uEV"/>
+                            <constraint firstItem="PXc-A9-tW0" firstAttribute="centerY" secondItem="nca-HN-diO" secondAttribute="centerY" id="nAf-Qz-fBn"/>
+                            <constraint firstItem="PXc-A9-tW0" firstAttribute="top" secondItem="saH-6V-iZu" secondAttribute="bottom" constant="53" id="qnu-8X-FYZ"/>
+                            <constraint firstItem="fQt-h8-7eu" firstAttribute="top" secondItem="PXc-A9-tW0" secondAttribute="bottom" constant="40" id="s0V-BA-jKb"/>
+                            <constraint firstItem="saH-6V-iZu" firstAttribute="top" secondItem="uHl-KF-2Xf" secondAttribute="bottom" id="xXf-Tg-lhz"/>
+                            <constraint firstItem="saH-6V-iZu" firstAttribute="centerX" secondItem="PXc-A9-tW0" secondAttribute="centerX" id="y9f-nf-QRd"/>
+                            <constraint firstItem="fQt-h8-7eu" firstAttribute="leading" secondItem="nca-HN-diO" secondAttribute="leadingMargin" constant="89" id="zLZ-wF-pB0"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="asaPic" destination="PXc-A9-tW0" id="4E5-ER-7Oz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qi6-h6-cZA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="353"/>
+        </scene>
+        <!--silas-->
+        <scene sceneID="EQv-XS-MTe">
+            <objects>
+                <viewController title="silas" modalTransitionStyle="partialCurl" id="Vsc-9K-fZ4" customClass="SilasViewController" customModule="Asa_or_Silas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="35u-Np-0Zf"/>
+                        <viewControllerLayoutGuide type="bottom" id="aEv-oe-VqC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DG3-TF-O7i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silas-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HyA-P8-ckY">
+                                <rect key="frame" x="40" y="124" width="240" height="320"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silas!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EyG-lE-EQf">
+                                <rect key="frame" x="67" y="28" width="186" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="186" id="bR7-PF-kP0"/>
+                                    <constraint firstAttribute="height" constant="51" id="lXJ-sJ-9kX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="28"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6b-Ig-i1n">
+                                <rect key="frame" x="107" y="484" width="107" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="sQj-zX-lM1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
+                                <state key="normal" title="Try Again"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="" id="hhw-8I-8bm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cyan="0.18720973322266027" magenta="0.0" yellow="0.043714021381578948" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HyA-P8-ckY" firstAttribute="leading" secondItem="DG3-TF-O7i" secondAttribute="leadingMargin" constant="24" id="1QJ-wJ-DxF"/>
+                            <constraint firstItem="e6b-Ig-i1n" firstAttribute="centerX" secondItem="EyG-lE-EQf" secondAttribute="centerX" id="54X-FG-Zeq"/>
+                            <constraint firstItem="e6b-Ig-i1n" firstAttribute="leading" secondItem="DG3-TF-O7i" secondAttribute="leadingMargin" constant="91" id="7Hh-32-jUU"/>
+                            <constraint firstAttribute="bottom" secondItem="e6b-Ig-i1n" secondAttribute="bottom" constant="20" symbolic="YES" id="C7U-2B-nqI"/>
+                            <constraint firstItem="e6b-Ig-i1n" firstAttribute="top" secondItem="HyA-P8-ckY" secondAttribute="bottom" constant="40" id="FZW-bV-dIP"/>
+                            <constraint firstItem="EyG-lE-EQf" firstAttribute="centerX" secondItem="DG3-TF-O7i" secondAttribute="centerX" id="He2-II-1FN"/>
+                            <constraint firstItem="HyA-P8-ckY" firstAttribute="centerX" secondItem="EyG-lE-EQf" secondAttribute="centerX" id="JXQ-h9-kcb"/>
+                            <constraint firstItem="e6b-Ig-i1n" firstAttribute="centerX" secondItem="DG3-TF-O7i" secondAttribute="centerX" id="Wyb-Nm-2fK"/>
+                            <constraint firstItem="EyG-lE-EQf" firstAttribute="top" secondItem="35u-Np-0Zf" secondAttribute="bottom" constant="8" id="dfC-G2-Ce6"/>
+                            <constraint firstItem="EyG-lE-EQf" firstAttribute="centerX" secondItem="DG3-TF-O7i" secondAttribute="centerX" id="rPW-zT-qNk"/>
+                            <constraint firstItem="HyA-P8-ckY" firstAttribute="centerY" secondItem="DG3-TF-O7i" secondAttribute="centerY" id="sp7-vn-yRQ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="silasPic" destination="HyA-P8-ckY" id="Dzc-qt-xWc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xaE-R6-D8A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="482" y="763"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="asa-1.jpg" width="540" height="720"/>
+        <image name="boys-1.jpg" width="540" height="540"/>
+        <image name="silas-1.jpg" width="540" height="540"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="hhw-8I-8bm"/>
+    </inferredMetricsTieBreakers>
+</document>
