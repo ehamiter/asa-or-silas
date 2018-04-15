@@ -12,14 +12,14 @@ class ViewController: UIViewController {
 
     @IBOutlet var boysPic: UIImageView!
     
-    @IBAction func randomButtonPressed(sender: AnyObject) {
+    @IBAction func randomButtonPressed(_ sender: AnyObject) {
         
         // Set up random choice between the boys
         let segues = ["asa", "silas"]
         let index = Int(arc4random_uniform(UInt32(segues.count)))
         let segueName = segues[index]
         
-        self.performSegueWithIdentifier(segueName, sender: self)
+        self.performSegue(withIdentifier: segueName, sender: self)
         
     }
     override func viewDidLoad() {
